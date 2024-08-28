@@ -1,0 +1,11 @@
+Question: Find maximum of three variables.
+Start
+Input No 1,No 2,No 3
+If (No 1> No 2) && (No 1> No 3)
+     Print " No 1 is maximum"
+Else 
+      If (No 2> No 1) && (No 2> No 3)
+      Print "No 2 is maximum"
+Else 
+       Print "No 3 is maximum"
+Stop
