@@ -1,0 +1,33 @@
+Question: Implement an algorithm where user enters number and an appropriate month is displayed.
+
+Start
+Input a number
+If (number==1)
+    Print" january"
+Else,if ( number==2)
+    Print"feburary"
+Else,if ( number==3)
+    Print"march"
+Else,if ( number==4)
+    Print"april"
+Else,if ( number==5)
+    Print"may"
+Else,if ( number==6)
+    Print"june"
+Else,if ( number==7)
+    Print"july" 
+Else,if ( number==8)
+    Print"august"
+Else,if ( number==9)
+    Print"september"
+Else,if ( number==10)
+    Print"october'
+Else,if (number==11)
+    Print"november"
+Else,if ( number==12)
+    Print"december"
+Else
+    Print"invalid number"
+Stop
+
+ 

@@ -1,0 +1,17 @@
+Question: Write an algorithm for determining if Nth number is divisor of n number.If so,determine if its an even number or odd number as well.
+Start
+Input a number=Nth
+Input a number=n
+Read Nth, n
+Set quotient=n/Nth
+If (quotient=real number)
+   Divide quotient by 2
+   End-if(remainder==0) then
+    Print"Nth is divisor of n,
+             quotient is even"
+    Else 
+          Print"Nth is divisor of n,
+           quotient is odd"
+Else
+   Print"Nth is not the divisor of n"
+Stop

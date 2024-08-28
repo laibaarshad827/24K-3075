@@ -1,0 +1,21 @@
+Question: Implement an algorithm for making simple calculator using all operators(+,-,/,*,%)
+Start
+Set a='+'
+Set b='-'
+Set c='/'
+Set d='*'
+Set e='%'
+Input No 1, No 2
+Input a variable 
+If (variable==a) then
+  print"No 1+ No 2"
+Else,if ( variable==b) then
+  print"No 1-No 2"
+Else ,if ( variable==c) then
+  print"No 1/No 2"
+Else,if ( variable==d) then
+  print"No 1*No 2"
+Else,if ( variable ==e) then 
+  print" ((No 1+ No 2)/2)*100"
+Else 
+  print" Invalid variable"
