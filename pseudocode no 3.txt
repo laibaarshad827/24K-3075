@@ -1,0 +1,16 @@
+Question: Take three variables as input and ad them without using the operator '+'
+Start
+Sum=0
+n=3
+Enter three variables a,b,c
+Read a,b,c
+Ratio=r
+If (a/b==b/c)&& ( r>1) then
+   Print "sum=(a(r^n-1))/(r-1)"
+Else,if (a/b==b/c)&&(r<1)then
+   Print"sum=(a(1-r^n))/(1-r)"
+Else,if (a/b!=b/c)||(r==1) then
+   multiply a,b,c by -1
+   a,b,c = -a,-b,-c
+   Print "sum=-(-a)-(-b)-(-c)"
+Stop

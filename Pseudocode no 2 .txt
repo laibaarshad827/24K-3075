@@ -1,0 +1,15 @@
+Question : Create small calculator whivh only does '+' or '_' operations .(Hint: Take three variable inputs with one being used for operators)
+Start
+Sum=0
+Input three variables a,b,c
+If (a==b)&& (c='+') then
+    Print "sum=sum+(2*a)"
+Else,if (a==b)&&(c='-') then
+    Print "sum=0"
+Else,if (a!=b)&&(c='+') then
+     Print " sum=sum+(a+b)"
+Else,if (a!=b)&&(c='-') then
+     Print " sum=sum+(a-b)"
+Else 
+     Print " invalid output"
+Stop
